@@ -1,1 +1,2 @@
 # music_player_backend
+该项目是music player的后端，基于nodeJS编写，使用express框架

@@ -1,0 +1,10 @@
+[
+    {
+        "picture": "http:localhost:8050/api/xiaocheng.png",
+        "id": 1,
+        "lrc": "./static/api/xiatian.lrc",
+        "name": "小城夏天",
+        "author": "LBI比利", 
+        "group": "小城夏天"
+    }
+]
