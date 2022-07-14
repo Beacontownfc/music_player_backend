@@ -33,4 +33,10 @@ router.post('/api/picture', (req, res) => {
     else res.send({code: 1, msg: '未找到该id的音乐'});
 })
 
+router.get('/api/getpopular', (req, res) => {
+    let music_data = json_fs.readFileSync('./data/music_info.json');
+    let send = Object.assign({code: 0, msg: '请求成功'}, {data: music_data});
+    res.send(send);
+})
+
 module.exports = router;

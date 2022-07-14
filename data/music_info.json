@@ -1,10 +1,38 @@
 [
     {
-        "picture": "http:localhost:8050/api/xiaocheng.png",
+        "picture": "http://localhost:8050/api/picture/xiaocheng.png",
+        "music": "http://localhost:8050/api/music/xiaocheng.mp3",
         "id": 1,
-        "lrc": "./static/api/xiatian.lrc",
+        "lrc": "./static/api/lrc/xiatian.lrc",
         "name": "小城夏天",
         "author": "LBI比利", 
         "group": "小城夏天"
+    },
+    {
+        "picture": "http://localhost:8050/api/picture/mon.png",
+        "music": "http://localhost:8050/api/music/mon.mp3",
+        "id": 2,
+        "lrc": "./static/api/lrc/mon.lrc",
+        "name": "妈妈的话",
+        "author": "ZyBoy忠宇", 
+        "group": "妈妈的话"
+    },
+    {
+        "picture": "http://localhost:8050/api/picture/guyong.png",
+        "music": "http://localhost:8050/api/music/guyong.mp3",
+        "id": 3,
+        "lrc": "./static/api/lrc/guyong.lrc",
+        "name": "孤勇者",
+        "author": "陈奕迅", 
+        "group": "孤勇者"
+    },
+    {
+        "picture": "http://localhost:8050/api/picture/yilu.png",
+        "music": "http://localhost:8050/api/music/yilu.mp3",
+        "id": 4,
+        "lrc": "./static/api/lrc/yilu.lrc",
+        "name": "一路生花",
+        "author": "温奕心", 
+        "group": "一路生花"
     }
 ]
